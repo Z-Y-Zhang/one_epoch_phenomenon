@@ -1,5 +1,8 @@
 # Towards Understanding the Overfitting Phenomenon of Deep Click-Through Rate Models
-This is an implementation of the [`Towards Understanding the Overfitting Phenomenon of Deep Click-Through Rate Models`](https://arxiv.org/abs/2209.06053), which is accpete by CIKM2022. The codes are developed with TensorFlow 1.4.
+This is an implementation of the [`Towards Understanding the Overfitting Phenomenon of Deep Click-Through Rate Models`](https://arxiv.org/abs/2209.06053), which is accpete by CIKM2022. The codes are developed with Python2.7 and TensorFlow1.4.
+
+## About the codes and results
+Here, we provide the results on Amazon book data set for reproducibility. **In summary, the experiment results of Amazon book data set are consistent with that of production data set. But we recommend the readers to focus on the results of the production data set in the paper, which are more robust to the hyper-parameters and much closer to the online industrial recommender systems.**
 
 ## Prepare data
 You can get the data and process it using the script
